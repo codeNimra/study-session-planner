@@ -17,7 +17,7 @@ export default function App() {
     <div className="app">
       <header className="app-header">
         <h1>PocketStudy</h1>
-        <p className="subtitle">Pomodoro study planner with emoji celebration and targets</p>
+        <p className="subtitle">Pomodoro study planner</p>
       </header>
 
       <main className="main-grid">

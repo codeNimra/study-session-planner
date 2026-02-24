@@ -22,7 +22,7 @@ export default function EmojiCelebration() {
     <div className="celebration">
       {show && <Confetti width={width} height={height} numberOfPieces={200} />}
       <div className="emoji" aria-hidden>{emoji}</div>
-      <div style={{color:"#444"}}>Great job! Keep it up — plan your next session.</div>
+      <div style={{color:"#444"}}>Great job! Keep it up - plan your next session.</div>
     </div>
   );
 }

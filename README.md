@@ -32,6 +32,7 @@ notification, increments session count, and triggers a celebration.
 - Howler.js 🔊
 - CSS Modules / Plain CSS 🎨
 - Netlify for continuous deployment 🚀
+- **Featherless.ai API** 🪶 for motivational inference
 
 ## Quick Start
 
@@ -42,6 +43,17 @@ notification, increments session count, and triggers a celebration.
 
 - Build: npm run build
 - Publish: Upload the build/ folder to your hosting provider or connect the GitHub repo to Netlify for automatic deploys on every push to main.
+
+## Featherless.ai Integration
+
+PocketStudy integrates Featherless.ai to deliver motivational study tips at the end of each session.
+
+- API requests are handled in src/services/featherless.js using Axios.
+- The API key is stored securely in .env (REACT_APP_FEATHERLESS_KEY).
+- Netlify environment variables ensure safe deployment.
+- This meaningful use of Featherless.ai inference qualifies PocketStudy for the Featherless.ai sponsor prize.
+
+---
 
 ## Project Status and License
 

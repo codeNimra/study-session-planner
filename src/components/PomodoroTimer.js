@@ -133,7 +133,7 @@ export default function PomodoroTimer({ settings }) {
             Quick set work minutes:
           </label>
           <div style={{ display: "flex", gap: 8, marginTop: 6 }}>
-            {[15, 25, 30, 45].map((m) => (
+            {[5, 10, 15, 25, 30, 45].map((m) => (
               <button
                 key={m}
                 className="btn small"
